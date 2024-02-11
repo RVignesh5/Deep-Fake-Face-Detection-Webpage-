@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("V:\Wheat Disease Detection Website\templates\images\dp.png"); /* Placeholder image for testing */
+            background-size: cover;
+}
+
+.container {
+  background-color: #d3c493; /* White Background */
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(136, 78, 78, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2rem; /* 2em = 32px */
+  color: #333; /* Dark Gray Text Color */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  margin-bottom: 10px;
+  color: #666; /* Light Gray Text Color */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333; /* Dark Gray Text Color */
+}
+
+input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ccc; /* Light Gray Border */
+  border-radius: 3px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #768d10; /* Green Button Color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#prediction-result {
+  font-size: 18px;
+  color: #333; /* Dark Gray Text Color */
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Fake Face Detection</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url("V:/Wheat Disease Detection Website/templates/images/dp.png");
+            background-size: cover;
+        }
+
+        .container {
+    background-color: rgba(255, 255, 255, 0.445); /* Adjust the alpha channel (fourth value) for transparency */
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(136, 78, 78, 0.1);
+   
+
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #000000;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        p {
+            margin-bottom: 10px;
+            color: #666;
+        }
+
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        input[type="file"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #768d10;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        #prediction-result {
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Deep Fake Face Detection</h1>
+        </header>
+        <main>
+            <p>Upload a image to.</p>
+            <div class="form-container">
+                <label for="file">Choose a file:</label>
+                <input type="file" id="file" name="file">
+                <button>Submit</button>
+            </div>
+            <div id="prediction-result">Prediction Result</div>
+        </main>
+    </div>
+</body>
+</html>
